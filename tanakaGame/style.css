@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("images/classRoom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.gauge {
+    width: 29%;
+    height: 8%;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.gauge img {
+    max-width: 100%;
+}
+
+.mainImage {
+   margin: 0 auto;
+   width: 40%;
+}
+
+#mainPerson {
+    max-width: 100%;
+    /* 画像が親要素にフィットするように */
+    max-height: 100%;
+    /* 画像が親要素にフィットするように */
+    z-index: 5;
+    margin: 30px 0 -68px;
+}
+h1 {
+    text-align: center;
+    width: 10%;
+    background-color: white;
+    padding: 5px 79px;
+    font-size: 27px;
+    border: solid 1px;
+    border-radius: 8px;
+    margin-left: 14px;
+    margin-bottom: -10px;
+    position: relative;
+    z-index: 5
+}
+
+.message{
+    background-color: #fff;
+    width: 90%;
+    height: 60%;
+    padding: 37px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: dotted;
+    border-radius: 8px;
+    font-size: 20px;
+    position: relative;
+    z-index: 4;
+}
+
+
+button{
+    all: unset;
+    background-color: rgb(226, 145, 159);
+    padding: 10px 100px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: double;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.prev{
+    margin-right: 100px;
+}
+.next{
+    margin-left: 100px;
+}

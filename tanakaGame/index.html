@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanaka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="gauge">
+            <img src="images/heart.png" alt="高感度のゲージ">
+            <p>4</p>
+        </div>
+        <div class="mainImage">
+            <img src="images/tanaka.png" alt="メインに映る人" id="mainPerson">
+        </div>
+       
+            <!-- 話の内容 -->
+            <h1 id="person">神野</h1>
+            <div class="message">
+            <p id="talk">
+                こんにちは。<br>
+                私は神野です。
+            </p>
+            <p id="comment"></p>
+            <div id="choices">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="prev">prev</button>
+            <button class="next">next</button>
+        </div>
+    </main>
+    <script src="storySegments.js"></script>
+    <script src="sub.js"></script>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
